@@ -1,0 +1,64 @@
+.kanva-page{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.kanva-page__logo{
+    margin-top: 40px;
+}
+.kanva-page__about{
+    margin-top: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.kanva-page__social{
+    font-weight: 400;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.social-instagram{
+    display: flex;
+    /* text-align: center;0 */
+    justify-content: center;
+}
+.social-instagram a{
+    display: flex;
+    line-height: 1;
+    color: #4f5250;
+}
+.social-instagram i{
+    /* display: flex; */
+    margin-right: 10px ;
+}
+.social-instagram p{
+    /* display: flex; */
+    margin-bottom: 0;
+}
+.social-facebook{
+    margin-top: 20px;
+    
+    display: flex;
+    /* text-align: center;0 */
+    justify-content: center;
+    align-items: center;
+}
+.social-facebook a{
+    display: flex;
+    color: #4f5250;
+    line-height: 1;
+}
+.social-facebook i{
+    /* display: flex; */
+    margin-right: 10px ;
+}
+.social-facebook p{
+    /* display: flex; */
+    margin-bottom: 0;
+}
